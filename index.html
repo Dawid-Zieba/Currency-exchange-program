@@ -16,34 +16,37 @@
         href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,400&family=Montserrat:wght@400;700&display=swap"
         rel="stylesheet">
     <link href="css/container.css" rel="stylesheet">
+    <link rel="icon" href="images/clipart2007533.png">
 </head>
 
 <body class="container">
-    <form  class="js-form form">
+    <form class="js-form form">
         <fieldset class="form__fieldset">
-        <legend class="form__legend">Wymiana waluty</legend>
-         <p>  
-            <label>
-                Kwota w PLN*<input class="form__money js-money" name="money" required  type="number" min="1" step="0.01" >
-            </label>
-         </p>
-         <p>
-            <label>
-                Waluta 
-                <select  class="form__currency js-currency" name="currency" required>
-                    <option value="4.68" name="euro">EUR</option>
-                    <option value="4.38"  name="dolar amerykański">USD</option>
-                    <option value="3.34"  name="jen japoński">JPY</option>
-                </select>
-            </label> 
+            <legend class="form__legend">Wymiana waluty</legend>
+            <p>
+                <label>
+                    Kwota w PLN*<input class="form__money js-money" name="money" required type="number" min="1"
+                        step="0.01">
+                </label>
+            </p>
+            <p>
+                <label>
+                    Waluta
+                    <select class="form__currency js-currency" name="currency" required>
+                        <option value="4.68" name="euro">EUR</option>
+                        <option value="4.38" name="dolar amerykański">USD</option>
+                        <option value="3.34" name="jen japoński">JPY</option>
+                    </select>
+                </label>
             </p>
             <p>*Pola wymagane do wypełnienia</p>
             <p>
-                <button class="form__buttonRecalculate js-recalculate" type="submit" >Przelicz</button>
+                <button class="form__buttonRecalculate js-recalculate" type="submit">Przelicz</button>
             </p>
-         
-       </fieldset>
+
+        </fieldset>
     </form>
-       <p class="form__sum">Kwota po przeliczeniu: <strong class="js-summary">N/A</strong></p>
-       </body>
-    </html>
+    <p class="form__sum">Kwota po przeliczeniu: <strong class="js-summary">N/A</strong></p>
+</body>
+
+</html>
