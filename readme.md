@@ -6,3 +6,5 @@ In this project I made a currency converter which allows you to convert 3 curren
 - CSS
 - JavaScript
 - BEM
+## Demo of the program
+https://dawid-zieba.github.io/Currency-exchange-program/
